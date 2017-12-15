@@ -1,0 +1,162 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+#sidebar {
+   /* display: none; */
+}
+
+.table-striped{
+    width: 100%;
+    border-spacing: 0px;
+    cellspacing: 0px;
+}
+
+
+
+.table-striped th, td{
+    min-height: 24px;
+}
+
+.table-striped th{
+    background: #e4e4e4 url(/bitrix/templates/bitrix24/images/interface/grid/bx-grid-head.png) repeat-x left top!important;
+    border: 0;
+    padding: 10px!important;
+    font: 12px/40px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: middle;
+    white-space: nowrap;
+   /* width: 10%;*/
+}
+
+
+.bx-sort-down {
+    background-image: url(/bitrix/templates/bitrix24/images/interface/grid/bx-sort-down.png)!important;
+}
+
+.table-striped td{
+    padding: 10px!important;
+    font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    width: 10%;
+}
+
+
+.id__td{
+    padding: 10px!important;
+    font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    width: 1% !important;
+}
+
+.name__td{
+    padding: 10px!important;
+    font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    width: 30%;
+}
+
+.autor__td{
+    padding: 10px!important;
+    font: 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    width: 10%;
+    text-align: left;
+}
+
+.info-it-base-container div{
+    line-height: 30px;
+    color: #00539a;
+    font-size: 15px;
+}
+
+.info-it-base-main{
+
+}
+
+.info-it-base-main:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -111px;
+}
+
+.info-it-base-title{
+    border-bottom: 1px dashed #00539a;
+    cursor: pointer;
+}
+
+.info-it-base-level-2, .info-it-base-level-2-elem{
+    margin-left: 20px;
+}
+
+.info-it-base-level-2:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -111px;
+}
+
+.info-it-base-level-3, .info-it-base-level-3-elem{
+    margin-left: 40px;
+}
+
+.info-it-base-level-3:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -111px;
+}
+
+.info-it-base-level-4, .info-it-base-level-4-elem{
+    margin-left: 60px;
+}
+
+.info-it-base-level-5-elem{
+    margin-left:80px;
+}
+
+.info-it-base-level-4:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -111px;
+}
+
+.info-it-base-main-root:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -279px;   
+}
+
+.info-it-base-level-2-elem:before, .info-it-base-level-3-elem:before, .info-it-base-level-4-elem:before, .info-it-base-level-5-elem:before{
+   content:"";
+   float:left;
+   width: 24px;
+   height: 24px;
+   margin:0 5px 0 0;
+   background: url(/bitrix/panel/main/images/icons-sprite-12.png) no-repeat center -279px;   
+}
+
+.hidden{
+    display: none;
+}
